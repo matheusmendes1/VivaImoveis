@@ -1,6 +1,4 @@
- /* Tags */
-
-body{
+#loginPage{
 	background-image: url("../img/loginBg.jpg");
 	background-size: cover;
  	background-repeat: repeat-y;
@@ -11,7 +9,6 @@ h4, label{
 }
 
 /* Classes */
-
 .outer-login-properties{
 	margin:auto;
   	width: 100%;

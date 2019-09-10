@@ -1,0 +1,146 @@
+body{
+  overflow-x: hidden;
+  font-family: sans-serif;
+  color: #505962;
+}
+
+.offset:before{
+  display: block;
+  content: "";
+  height: 4rem;
+  margin-top: -4rem;
+}
+
+/*-- Navigation --*/
+
+.navbar{
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 0.9rem;
+  letter-spacing: 0.1rem;
+  background: rgba(0,0,0,0.8) !important;
+}
+
+.navbar-brand img{
+  height: 2rem;
+}
+
+.navbar-nav li{
+  padding-right: 0.7rem;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+  color: white;
+  padding-top: 0.8rem;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover{
+  color: #1EBBA3;
+}
+
+/*-- Landing Page --*/
+
+#home{
+  background-color: rgba(0,0,0,0.5);
+}
+
+.home-inner{
+  background-image: url(../img/landingHouse.jpg);
+}
+
+.caption{
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 38%;
+  z-index: 1;
+  color: white;
+  text-transform: uppercase;
+}
+
+.caption h1{
+  font-size: 3.8rem;
+  font-weight: 700;
+  letter-spacing: 0.3rem;
+  text-shadow: 0.1rem 0.1rem 0.8rem black;
+  padding-bottom: 1rem;
+}
+
+.caption h3{
+  font-size: 2rem;
+  text-shadow: 0.1rem 0.1rem 0.5rem black;
+  padding-bottom: 1.6rem;
+}
+
+.btn-lg{
+  border-width: medium;
+  border-radius: 0;
+  padding: 0.6rem 1.3rem;
+  font-size: 1.1rem;
+}
+
+/*-- founders Section --*/
+
+h3.heading{
+  font-size: 1.9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 1.9rem;
+}
+
+.heading-underline{
+  width: 10rem;
+  height: .2rem;
+  background-color: #1EBBA3;
+  margin: 0 auto 2rem;
+}
+
+.founders img{
+  width: 100%;
+  border-radius: 50%;
+}
+
+.jumbotron, .bg-gray{
+  background-color: rgba(69, 69, 69, 0.3);
+}
+
+blockquote .svg-inline--fa{
+  color: #1EBBA3;
+  margin: 1rem;
+}
+
+.founders-hr{
+  border-top: 0.05rem solid #1EBBA3;
+}
+
+
+/*-- Media Queries --*/
+
+@media (max-width: 767px){
+  .caption h1{
+    font-size: 2.3rem;
+    letter-spacing: 0.15rem;
+    padding-bottom: 0.5rem;
+  }
+  
+  .caption h3{
+    font-size: 1.2rem;
+    padding-bottom: 1.2rem;
+  }
+
+  .btn-lg{
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+  }
+
+  .narrow h1{
+    font-size: 1.5rem;
+  }
+
+  .founders img{
+    max-width: 50%;
+    display: block;
+    margin: 0 auto;
+  }
+}
