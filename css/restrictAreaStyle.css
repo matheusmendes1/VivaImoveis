@@ -1,7 +1,7 @@
 /*======= Start Navivation Section =======*/
 
 .navbar{
-	background-color: rgba(0, 0, 0) !important;
+	background-color: rgba(0, 0, 0, 0.6) !important;
 }
 
 .navbar-dark .navbar-nav .dropdown-menu{
@@ -28,6 +28,10 @@
 
 /*======= Start Formulário Section =======*/
 
+#formClientes, #formFuncionario, #formImoveis{
+	padding-top: 6rem;
+}
+
 #forms .jumbotron{
 	padding-top: 1.5rem;
 }
@@ -50,5 +54,26 @@
 	margin: 1rem 0rem;
 	padding: .375rem 3rem;
 }
+
+.form-check{
+	padding: 0rem !important;
+}
+
+.form-check .form-check-input{
+	margin: 0.1rem 0.2rem;
+	width: 1.3rem;
+    height: 1.3rem;
+}
+
+.form-check .form-check-label{
+	margin-left: 2rem;
+	font-size: 1.1rem;
+}
 /*======= End Formulário Section =======*/
 
+/*======= Start Tables Section =======*/
+#tables .jumbotron .container .table tbody tr td, #tables .jumbotron .container .table tbody tr th{
+	color: black;
+}
+
+/*======= End Tables Section =======*/

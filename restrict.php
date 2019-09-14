@@ -9,10 +9,10 @@
 	<link rel="stylesheet" href="css/restrictAreaStyle.css">
 </head>
 
-<body>
+<body data-spy="scroll" data-target="#barraNavegacao">
 
 	<!-- Start Navigation -->
-	<nav class="navbar navbar-expand-md navbar-dark bg-dark ">
+	<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
 		<a href="index.php" class="navbar-brand">
 			<!-- LOGOTIPO -->
 			<img src="img/nuno.png">
@@ -29,9 +29,9 @@
 			          Cadastrar
 			        </a>
 			        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-			          <a id="displayFormFuncionarios" class="dropdown-item" href="#">Funcionarios</a>
-			          <a id="displayFormClientes" class="dropdown-item" href="#">Clientes</a>
-			          <a id="displayFormImoveis"class="dropdown-item" href="#">Imoveis</a>
+			          <a id="displayFormFuncionarios" class="dropdown-item" href="#formFuncionario">Funcionarios</a>
+			          <a id="displayFormClientes" class="dropdown-item" href="#formClientes">Clientes</a>
+			          <a id="displayFormImoveis"class="dropdown-item" href="#formImoveis">Imoveis</a>
 			        </div>
 			    </li>
 
@@ -55,172 +55,77 @@
 	</nav>
 	<!-- End Navigation -->
 
-	<!-- Start Forms Section -->
-	<div id="forms" class="offset">	
-		<div class="jumbotron">
-			<div class="container" id="pivo"> <!-- Start Formularios Holder Section -->
-				<div id="formFuncionario"> <!-- Start - Cadastro de Funcionarios -->
-					<div class="col-12 text-center">
-						<h3 class="heading">Cadastro de Funcionarios</h3>
-						<div class="heading-underline"></div>
-					</div>
-
-					<form>
-						<div class="form-row">
-						    <div class="col-md-8">
-								<label for="nomeFuncionario">Nome Completo</label>
-								<input id="nomeFuncionario" name="nomeFuncionario" type="text" class="form-control">
-						    </div>
-						    <div class="col-md-4">
-								<label for="cpfFuncionario">CPF</label>
-								<input id="cpfFuncionario" name="cpfFuncionario" type="text" class="form-control">
-						    </div>
-						</div>
-
-						<div class="form-row">
-						    <div class="col-md-12">
-								<label for="endFuncionario">Endereço Completo</label>
-								<input id="endFuncionario" name="endFuncionario" type="text" class="form-control">
-						    </div>
-						</div>
-
-						<div class="form-row">
-
-						    <div class="col-md-4">
-								<label for="dataIngressoFuncionario">Data de Ingresso</label>
-								<input id="dataIngressoFuncionario" name="dataIngressoFuncionario" type="date" class="form-control">
-						    </div>
-
-							<div class="col-md-4">
-								<label for="telefoneFuncionario">Telefone</label>
-								<input id="telefoneFuncionario" name="telefoneFuncionario" type="text" class="form-control">
-						    </div>
-
-							<div class="col-md-4">
-								<label for="celularFuncionario">Celular</label>
-								<input id="celularFuncionario" name="celularFuncionario" type="text" class="form-control">
-						    </div>
-
-						</div>
-
-						<div class="form-row">
-
-						    <div class="col-md-6">
-								<label for="cargoFuncionario">Cargo</label>
-								<input id="cargoFuncionario" name="cargoFuncionario" type="text" class="form-control">
-						    </div>
-						    
-							<div class="col-md-6">
-								<label for="salarioFuncionario">Remuneração</label>
-								<input id="salarioFuncionario" name="salarioFuncionario" type="text" class="form-control">
-						    </div>
-
-						</div>
-
-						<div class="form-row">
-
-						    <div class="col-md-6">
-								<label for="nomeUsuarioFuncionario">Usuario</label>
-								<input id="nomeUsuarioFuncionario" name="nomeUsuarioFuncionario" type="text" class="form-control">
-						    </div>
-						    
-							<div class="col-md-6">
-								<label for="senhaUsuario">Senha</label>
-								<input id="senhaUsuario" name="senhaUsuario" type="password" class="form-control">
-						    </div>
-
-						</div>
-
-						<button id="submitFuncionarios" type="submit" class="btn btn-primary">Submit</button>
-					</form>
+	<!-- Start Landing Page Section -->
+	<div class="landing">
+		<div class="home-wrap">
+			<div class="home-inner">
+				<div class="layer">
 					
-				</div> <!-- End - Cadastro de Funcionarios -->
-
-				
-				<div id="formClientes"> <!-- Start - Cadastro de Clientes -->
-					
-					<div class="col-12 text-center">
-						<h3 class="heading">Cadastro de Clientes</h3>
-						<div class="heading-underline"></div>
-					</div>
-
-					<form>
-						<div class="form-row">
-						    <div class="col-md-8">
-								<label for="nomeCliente">Nome Completo</label>
-								<input id="nomeCliente" name="nomeCliente" type="text" class="form-control">
-						    </div>
-						    <div class="col-md-4">
-								<label for="cpfCliente">CPF</label>
-								<input id="cpfCliente" name="cpfCliente" type="text" class="form-control">
-						    </div>
-						</div>
-
-						<div class="form-row">
-						    <div class="col-md-12">
-								<label for="endCliente">Endereço Completo</label>
-								<input id="endCliente" name="endCliente" type="text" class="form-control">
-						    </div>
-						</div>
-
-						<div class="form-row">
-
-						    <div class="col-md-4">
-								<label for="emailCliente">Email</label>
-								<input id="emailCliente" name="emailCliente" type="email" class="form-control">
-						    </div>
-
-							<div class="col-md-4">
-								<label for="telefoneCliente">Telefone</label>
-								<input id="telefoneCliente" name="telefoneCliente" type="text" class="form-control">
-						    </div>
-
-							<div class="col-md-4">
-								<label for="celularCliente">Celular</label>
-								<input id="celularCliente" name="celularCliente" type="text" class="form-control">
-						    </div>
-
-						</div>
-
-						<div class="form-row">
-
-						    <div class="col-md-4">
-								<label for="sexoCliente">Sexo</label>
-
-								<select id="sexoCliente" class="custom-select">
-								  <option selected hidden>Selecione...</option>
-								  <option value="masc">Masculino</option>
-								  <option value="fem">Feminino</option>
-								  <option value="outro">Outro</option>
-								</select>
-						    </div>
-						    
-							<div class="col-md-4">
-								<label for="estadoCivilCliente">Estado Civil</label>
-
-								<select id="estadoCivilCliente" class="custom-select">
-								  <option selected hidden>Selecione...</option>
-								  <option value="masc">Casado(a)</option>
-								  <option value="fem">Solteiro(a)</option>
-								</select>
-						    </div>
-
-							<div class="col-md-4">
-								<label for="profissaoCliente">Profissão</label>
-								<input id="profissaoCliente" name="profissaoCliente" type="text" class="form-control">
-						    </div>
-
-						</div>
-
-						<button id="submitClientes" type="submit" class="btn btn-primary">Submit</button>
-					</form>
-					
-				</div> <!-- End - Cadastro de Clientes -->
-			</div> <!-- End Formularios Holder Section -->
-
+				</div>
+			</div>
 		</div>
 	</div>
-	<!-- End Forms Section -->
+
+	<div class="caption text-center">
+		<h1>Viva Imoveis</h1>
+		<h3>Área restrita - Gerenciamento da Plataforma</h3>
+	</div>
+	<!-- End Landing Page Section -->
+
+	<!-- Formulários -->
+	<?php include 'includes/forms.php'; ?>
+
+	<!-- Tabelas -->
+	<div id="tables" class="offset">
+		<div class="jumbotron">
+			<div class="container" id="pivoTable">
+
+				<div id="tableFuncionario">
+					<div class="row">
+						<div class="col-md-12">
+							<table class="table table-striped table-bordered table-hover table-condensed">
+								<thead class="thead-dark">
+								    <tr>
+								      <th scope="col"><label class="text-center">#</label></th>
+								      <th scope="col"><label class="text-center">Nome</label></th>
+								      <th scope="col"><label class="text-center">Nome de Usuario</label></th>
+								      <th scope="col"><label class="text-center">CPF</label></th>
+								      <th scope="col"><label class="text-center">Celular</label></th>
+								    </tr>
+								</thead>
+
+								<tbody>
+									<tr>
+									  <th scope="row">1</th>
+									  <td>Matheus dos Santos Mendes</td>
+									  <td>matheustmendes</td>
+									  <td>111.111.111-11</td>
+									  <td>(34) 91111-1111</td>
+									</tr>
+									<tr>
+									  <th scope="row">2</th>
+									  <td>Matheus dos Santos Mendes</td>
+									  <td>matheustmendes</td>
+									  <td>111.111.111-11</td>
+									  <td>(34) 91111-1111</td>
+									</tr>
+									<tr>
+									  <th scope="row">3</th>
+									  <td>Matheus dos Santos Mendes</td>
+									  <td>matheustmendes</td>
+									  <td>111.111.111-11</td>
+									  <td>(34) 91111-1111</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
 
 	<!-- Footer Section -->
 	<?php include 'includes/footer.php'; ?>	
