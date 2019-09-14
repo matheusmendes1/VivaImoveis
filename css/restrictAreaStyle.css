@@ -1,0 +1,54 @@
+/*======= Start Navivation Section =======*/
+
+.navbar{
+	background-color: rgba(0, 0, 0) !important;
+}
+
+.navbar-dark .navbar-nav .dropdown-menu{
+	text-transform: uppercase;
+  	font-weight: 700;
+  	font-size: 0.9rem;
+  	letter-spacing: 0.1rem;
+  	background-color: rgba(0, 0, 0, 0.6) !important;
+}
+
+.navbar-nav li{
+  	padding-right: 1rem;
+}
+
+.navbar-dark .navbar-nav .dropdown-menu .dropdown-item {
+	color: white;
+	padding-top: 0.8rem;
+}
+
+.navbar-dark .navbar-nav .dropdown-menu .dropdown-item:hover {
+	color: rgb(0, 157, 220);
+}
+/*======= End Navivation Section =======*/
+
+/*======= Start Formulário Section =======*/
+
+#forms .jumbotron{
+	padding-top: 1.5rem;
+}
+
+#forms h3.heading{
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+#pivo{
+	margin-bottom: 3rem;
+}
+
+#pivo label{
+	font-weight: 700;
+}
+
+#pivo .btn-primary{
+	margin: 1rem 0rem;
+	padding: .375rem 3rem;
+}
+/*======= End Formulário Section =======*/
+

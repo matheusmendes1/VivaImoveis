@@ -11,6 +11,23 @@ body{
   margin-top: -4rem;
 }
 
+/*--- Extra Bootstrap Column Padding --*/
+[class*="col-"] {
+  padding: 1rem;
+}
+
+/*--- Bootstrap Mobile Gutter Fix --*/
+.row, .container-fluid {
+margin-left: 0px!important;
+margin-right: 0px!important;
+}
+
+/*--- Fix for Fixed Navbar jumping on scroll --*/
+.fixed-top  {
+ -webkit-backface-visibility: hidden;
+}
+
+
 /*======= Start Navigation Section =======*/
 
 .navbar{
@@ -39,12 +56,40 @@ body{
   color: rgb(0, 157, 220);
 }
 
-.login-link{
-  margin-left: 2.3rem;
-}
 /*======= End Navigation Section =======*/
 
 /*======= Start Landing Section =======*/
+
+.landing {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: table;
+  z-index: -1;
+}
+
+.home-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.home-inner {
+  position: fixed;
+  display: table;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  will-change: transform;
+}
 
 .home-inner{
   background-image: url(../img/landingHouse.jpg);
@@ -185,9 +230,9 @@ blockquote .svg-inline--fa{
 
 /*======= Start Footer Section =======*/
 
-#footer{
+#contacts{
     background-color: rgb(0, 55, 122);
-    margin-top: -3rem;
+    padding-bottom: 1rem;
 }
 
 footer img{
@@ -213,10 +258,12 @@ footer .footer-p{
 footer a{
     color: white;
     font-size: 1.2rem;
+    font-weight: 700;
 }
 
 footer a:hover{
     color: rgb(0, 157, 220);
+    text-decoration: none;
 } 
 
 footer svg.svg-inline--fa{
@@ -268,10 +315,6 @@ footer svg.svg-inline--fa{
 /*-- Media Queries --*/
 
 @media (max-width: 767px){
-  .login-link{
-    margin-left: 0rem;
-  }
-
   .caption h1{
     font-size: 2.3rem;
     letter-spacing: 0.15rem;
@@ -322,24 +365,20 @@ footer svg.svg-inline--fa{
   }
 }
 
+/* Ipad Section */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  { 
+  .navbar{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 0.6rem;
+    letter-spacing: 0.05rem;
+    background-color: rgba(0, 0, 0, 0.6) !important;
+  }
 
-/*============ BOOTSTRAP BREAK POINTS:
-
-Extra small (xs) devices (portrait phones, less than 576px)
-No media query since this is the default in Bootstrap
-
-Small (sm) devices (landscape phones, 576px and up)
-@media (min-width: 576px) { ... }
-
-Medium (md) devices (tablets, 768px and up)
-@media (min-width: 768px) { ... }
-
-Large (lg) devices (desktops, 992px and up)
-@media (min-width: 992px) { ... }
-
-Extra (xl) large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... }
-
-=============*/
-
-
+  footer svg.svg-inline--fa{
+    font-size: 1.5rem;
+    margin: 0rem 0.5rem 0rem 0.5rem;
+  }
+}

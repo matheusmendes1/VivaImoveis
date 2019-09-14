@@ -1,56 +1,16 @@
 <!DOCTYPE html>
 <html lang="PT-BR">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
-	<title>Viva Imoveis</title>
-
-	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/fixed.css">
+	<?php include 'includes/head.php'; ?>
 </head>
 
-<body data-spy="scroll" data-target="#navbarResponsive">
+<body data-spy="scroll" data-target="#barraNavegacao">
 
 <!-- Start Home Section -->
 <div id="home">
 	
-	<!-- Start Navigation -->
-	<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-		<a href="#" class="navbar-brand">
-			<!-- LOGOTIPO -->
-			<img src="img/nuno.png">
-		</a>
-
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
-			<span class="navbar-toggler-icon"></span>
-		</button>
-
-		<div class="collapse navbar-collapse" id="navbarResponsive">
-			<ul class="navbar-nav ml-auto">
-				<li class="nav-item"> 
-					<a href="#home" class="nav-link">Home</a>
-				</li>
-				<li>
-					<a href="#features" class="nav-link">Features</a>					
-				</li>
-				<li>
-					<a href="#about" class="nav-link">About</a>					
-				</li>
-				<li>
-					<a href="#founders" class="nav-link">Founders</a>					
-				</li>
-				<li>
-					<a href="#search" class="nav-link">Search</a>					
-				</li>
-				<li>
-					<a href="#login" class="nav-link login-link" data-toggle="modal" data-target="#loginModal">Login</a>					
-				</li>
-			</ul>
-		</div>
-	</nav>
-	<!-- End Navigation -->
+	<!-- Barra de navegação -->
+	<?php include 'includes/navbar.php'; ?>
 
 	<!-- Start Landing Page Section -->
 	<div class="landing">
@@ -269,56 +229,8 @@
 </div>
 <!-- End Founders Section -->
 
-<!-- Start Footer Section -->
-<div id="footer" class="offset">
-
-	<!-- Start Footer Section -->
-     <footer class="container">
-        <div class="row">
-           <div class="col-md-4 text-center">
-              <img src="img/nuno.png">
-              <p style="margin-top: 1rem;"><strong>Optimização, projetos e soluções</strong></p>
-           </div>
-
-           <div class="col-md-4 padding-footer">
-              <p class="footer-p text-center">Quer falar com a gente?</p>
-              <table class="table">
-                 <tbody>
-                    <tr>
-                       <th rowspan="1" scope="col"><i class="fas fa-phone-volume fa-2x"></i></th>
-                       <th rowspan="1" scope="col" >+55(34) 3239-4411<br>+55(34) 3239-4411</th>
-                    </tr>
-
-                    <tr>
-                       <th rowspan="1" scope="col"><i class="fas fa-map-marker-alt fa-2x"></i></i></th>
-                       <th rowspan="1" scope="col">Av. João Naves de Ávila, 2121<br>Santa Mônica | Uberlândia – MG</th>
-                    </tr>
-                    <tr>
-                       <th rowspan="1" scope="col"><i class="fas fa-map-marker-alt fa-2x"></i></i></th>
-                       <th rowspan="1" scope="col">Av. João Naves de Ávila, 2121<br>Santa Mônica | Uberlândia – MG</th>
-                    </tr>
-                 </tbody>
-              </table>
-           </div>
-
-           <div class="col-md-4 text-center">
-              <p><a href="#home">Home</a></p>
-              <p><a href="#features">Features</a></p>
-              <p><a href="#about">About</a></p>
-              <p><a href="#founders">Founders</a></p>
-
-              <div class="text-center">
-                 <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square"></i></a>
-                 <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter-square"></i></a>
-                 <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>        
-              </div>
-           </div>
-        </div>
-      </div>
-      <!-- End Footer Section --> 
-	</footer>
-</div>
-<!-- End Footer Section -->
+<!-- Footer Section -->
+<?php include 'includes/footer.php'; ?>
 
 
 <!-- Modal -->
@@ -347,17 +259,14 @@
       </div>
       <div class="modal-footer">
 			  <a href="#" class="float-left">Forgot your password?</a>
-			  <button type="submit" class="btn btn-secondary">Login</button>
+			  <a href="restrict.php"><button type="submit" class="btn btn-secondary">Login</button></a>
       </div>
     </div>
   </div>
 </div>
 
-<!--- Script Source Files -->
-<script src="js/jquery-3.3.1.min.js"></script>
-<script src="bootstrap/js/bootstrap.min.js"></script>
-<script src="https://use.fontawesome.com/releases/v5.5.0/js/all.js"></script>
-<!--- End of Script Source Files -->
+<!-- Script Source Files -->
+<?php include 'includes/scripts.php'; ?>
 
 </body>
 </html>
