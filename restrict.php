@@ -40,10 +40,10 @@
 			          Visualizar
 			        </a>
 			        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-			          <a class="dropdown-item" href="#">Funcionarios</a>
-			          <a class="dropdown-item" href="#">Clientes</a>
-			          <a class="dropdown-item" href="#">Imoveis</a>
-			          <a class="dropdown-item" href="#">Interesses</a>
+			          <a id="displayTableFuncionario" class="dropdown-item" href="#tableFuncionario">Funcionarios</a>
+			          <a id="displayTableClientes" class="dropdown-item" href="#tableClientes">Clientes</a>
+			          <a id="displayTableImoveis" class="dropdown-item" href="#tableImoveis">Imoveis</a>
+			          <a id="displayTableInteressados" class="dropdown-item" href="#tableInteressados">Interesses</a>
 			        </div>
 			    </li>
 
@@ -76,55 +76,7 @@
 	<?php include 'includes/forms.php'; ?>
 
 	<!-- Tabelas -->
-	<div id="tables" class="offset">
-		<div class="jumbotron">
-			<div class="container" id="pivoTable">
-
-				<div id="tableFuncionario">
-					<div class="row">
-						<div class="col-md-12">
-							<table class="table table-striped table-bordered table-hover table-condensed">
-								<thead class="thead-dark">
-								    <tr>
-								      <th scope="col"><label class="text-center">#</label></th>
-								      <th scope="col"><label class="text-center">Nome</label></th>
-								      <th scope="col"><label class="text-center">Nome de Usuario</label></th>
-								      <th scope="col"><label class="text-center">CPF</label></th>
-								      <th scope="col"><label class="text-center">Celular</label></th>
-								    </tr>
-								</thead>
-
-								<tbody>
-									<tr>
-									  <th scope="row">1</th>
-									  <td>Matheus dos Santos Mendes</td>
-									  <td>matheustmendes</td>
-									  <td>111.111.111-11</td>
-									  <td>(34) 91111-1111</td>
-									</tr>
-									<tr>
-									  <th scope="row">2</th>
-									  <td>Matheus dos Santos Mendes</td>
-									  <td>matheustmendes</td>
-									  <td>111.111.111-11</td>
-									  <td>(34) 91111-1111</td>
-									</tr>
-									<tr>
-									  <th scope="row">3</th>
-									  <td>Matheus dos Santos Mendes</td>
-									  <td>matheustmendes</td>
-									  <td>111.111.111-11</td>
-									  <td>(34) 91111-1111</td>
-									</tr>
-								</tbody>
-							</table>
-						</div>
-					</div>
-				</div>
-
-			</div>
-		</div>
-	</div>
+	<?php include 'includes/tables.php'; ?>
 
 
 	<!-- Footer Section -->

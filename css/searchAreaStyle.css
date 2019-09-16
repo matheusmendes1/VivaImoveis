@@ -1,0 +1,33 @@
+.headingSearch{
+  font-size: 1.9rem;
+  font-weight: 700;
+}
+
+.card-properties{
+	border: 1px solid lightgray;
+	border-radius: 0.5rem;
+	background: white;
+	margin: 3rem;
+}
+
+#search .heading-underline{
+  width: 7rem;
+  height: 0.2rem;
+  background-color: rgb(0, 157, 220);
+  margin: 0 1rem;
+}
+
+.btn-color{
+  background-color: rgb(0, 157, 220);
+  border-color: rgb(0, 157, 220);
+}
+
+.bg-header{
+	background-color: rgb(0, 157, 220);
+	border-color: rgb(0, 157, 220);
+}
+
+.modal-title{
+	color: white;
+	font-size: 1.5rem;
+}

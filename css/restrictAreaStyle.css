@@ -69,6 +69,11 @@
 	margin-left: 2rem;
 	font-size: 1.1rem;
 }
+
+select option:before{
+	margin: 0rem 0.75rem;
+}
+
 /*======= End Formulário Section =======*/
 
 /*======= Start Tables Section =======*/
@@ -76,4 +81,24 @@
 	color: black;
 }
 
+#pivoTable{
+	margin-bottom: 5rem;
+}
+
+#pivoTable .text-center{
+	margin-top: -6rem;
+}
+
+#pivoTable h3.heading{
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
 /*======= End Tables Section =======*/
+
+@media (max-width: 767px){
+	.table-responsive .table{
+		font-size: 0.7rem;
+	}
+}

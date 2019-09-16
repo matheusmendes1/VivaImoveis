@@ -74,7 +74,7 @@
 				</div>
 
 				<div class="col-12 col-md-12">
-					<a href="" class="btn btn-secondary btn-md">Encontre o imóvel ideal</a>
+					<a href="" class="btn btn-secondary">Encontre o imóvel ideal</a>
 				</div>
 
 			</div>
@@ -229,41 +229,13 @@
 </div>
 <!-- End Founders Section -->
 
+
 <!-- Footer Section -->
 <?php include 'includes/footer.php'; ?>
 
+<!-- Modals Section -->
+<?php include 'includes/modals.php'; ?>	
 
-<!-- Modal -->
-<div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Sign In</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        	<form>
-
-			  <div class="form-group">
-			    <label for="exampleInputEmail1">Email address</label>
-			    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-			  </div>
-
-			  <div class="form-group">
-			    <label for="exampleInputPassword1">Password</label>
-			    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-			  </div>
-			</form>
-      </div>
-      <div class="modal-footer">
-			  <a href="#" class="float-left">Forgot your password?</a>
-			  <a href="restrict.php"><button type="submit" class="btn btn-secondary">Login</button></a>
-      </div>
-    </div>
-  </div>
-</div>
 
 <!-- Script Source Files -->
 <?php include 'includes/scripts.php'; ?>

@@ -54,6 +54,7 @@ margin-right: 0px!important;
 .navbar-dark .navbar-nav .nav-link.active, 
 .navbar-dark .navbar-nav .nav-link:hover{
   color: rgb(0, 157, 220);
+  cursor: default;
 }
 
 /*======= End Navigation Section =======*/
@@ -235,6 +236,10 @@ blockquote .svg-inline--fa{
     padding-bottom: 1rem;
 }
 
+footer{
+  padding-top: 2rem;
+}
+
 footer img{
     width: 10rem;
 }
@@ -250,14 +255,14 @@ footer p strong{
 
 footer .footer-p{
     color: white;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 600;
     letter-spacing: 1px;
 }
 
 footer a{
     color: white;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 700;
 }
 
@@ -267,17 +272,17 @@ footer a:hover{
 } 
 
 footer svg.svg-inline--fa{
-    font-size: 3rem;
+    font-size: 2rem;
     margin: 0rem 0.5rem 0rem 0.5rem;
   }
   
-  footer svg.svg-inline--fa:hover{
-    color: rgb(0, 157, 220);
-  }
+footer svg.svg-inline--fa:hover{
+  color: rgb(0, 157, 220);
+}
 
-  footer table th{
-    font-size: 0.9rem;
-  }
+footer table th{
+  font-size: 0.9rem;
+}
 
 /*======= End Footer Section =======*/
 
@@ -308,6 +313,16 @@ footer svg.svg-inline--fa{
 .modal-content .btn-secondary:hover{
   background-color: rgb(0, 99, 220);
   border-color: rgb(0, 99, 220);
+}
+
+.bg-header{
+  background-color: rgb(0, 157, 220);
+  border-color: rgb(0, 157, 220);
+}
+
+.modal-title{
+  color: white;
+  font-size: 1.5rem;
 }
 
 /*======= End Modal Section ======*/
@@ -363,6 +378,12 @@ footer svg.svg-inline--fa{
     padding-right: 1rem;
     font-size: 0.9rem;
   }
+
+  footer svg.svg-inline--fa{
+      font-size: 2rem;
+      margin: 0rem 0.5rem 0rem 0.5rem;
+    }
+
 }
 
 /* Ipad Section */

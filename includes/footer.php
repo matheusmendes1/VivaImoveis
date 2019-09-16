@@ -1,5 +1,5 @@
 <!-- Start Footer Section -->
-<div id="contacts" class="offset">
+<div id="contacts">
 
 	<!-- Start Footer Section -->
      <footer class="container">
@@ -18,10 +18,6 @@
                        <th rowspan="1" scope="col" >+55(34) 3239-4411<br>+55(34) 3239-4411</th>
                     </tr>
 
-                    <tr>
-                       <th rowspan="1" scope="col"><i class="fas fa-map-marker-alt fa-2x"></i></i></th>
-                       <th rowspan="1" scope="col">Av. João Naves de Ávila, 2121<br>Santa Mônica | Uberlândia – MG</th>
-                    </tr>
                     <tr>
                        <th rowspan="1" scope="col"><i class="fas fa-map-marker-alt fa-2x"></i></i></th>
                        <th rowspan="1" scope="col">Av. João Naves de Ávila, 2121<br>Santa Mônica | Uberlândia – MG</th>
