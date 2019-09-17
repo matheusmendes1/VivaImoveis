@@ -1,7 +1,5 @@
 <!-- Start Forms Section -->
-<div id="forms" class="offset">	
-	<div class="jumbotron">
-		<div class="container" id="pivo"> <!-- Start Formularios Holder Section -->
+		<div class="container" id="forms"> <!-- Start Formularios Holder Section -->
 			<div id="formFuncionario"> <!-- Start - Cadastro de Funcionarios -->
 				<div class="col-12 text-center">
 					<h3 class="heading">Cadastro de Funcionarios</h3>
@@ -245,8 +243,8 @@
 						<div class="form-row">
 							<div class="col-md-12">
 								<div class="custom-file">
-								    <input type="file" class="custom-file-input" id="customFile">
-								    <label class="custom-file-label" for="customFile">Fotos do Imóvel</label>
+								    <input type="file" class="custom-file-input" id="fotosCasa">
+								    <label class="custom-file-label" for="fotosCasa">Fotos do Imóvel</label>
 								 </div>
 							</div>
 						</div>
@@ -305,8 +303,8 @@
 						<div class="form-row">
 							<div class="col-md-12">
 								<div class="custom-file">
-								    <input type="file" class="custom-file-input" id="customFile">
-								    <label class="custom-file-label" for="customFile">Fotos do Imóvel</label>
+								    <input type="file" class="custom-file-input" id="fotosApartamento">
+								    <label class="custom-file-label" for="fotosApartamento">Fotos do Imóvel</label>
 								 </div>
 							</div>
 						</div>
@@ -378,8 +376,8 @@
 						<div class="form-row">
 							<div class="col-md-12">
 								<div class="custom-file">
-								    <input type="file" class="custom-file-input" id="customFile">
-								    <label class="custom-file-label" for="customFile">Fotos do Imóvel</label>
+								    <input type="file" class="custom-file-input" id="fotosSalaComercial">
+								    <label class="custom-file-label" for="fotosSalaComercial">Fotos do Imóvel</label>
 								 </div>
 							</div>
 						</div>
@@ -409,8 +407,8 @@
 						<div class="form-row">
 							<div class="col-md-12">
 								<div class="custom-file">
-								    <input type="file" class="custom-file-input" id="customFile">
-								    <label class="custom-file-label" for="customFile">Fotos do Imóvel</label>
+								    <input type="file" class="custom-file-input" id="fotosTerreno">
+								    <label class="custom-file-label" for="fotosTerreno">Fotos do Imóvel</label>
 								 </div>
 							</div>
 						</div>
@@ -434,7 +432,4 @@
 
 
 		</div> <!-- End Formularios Holder Section -->
-
-	</div>
-</div>
 <!-- End Forms Section -->

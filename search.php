@@ -195,7 +195,5 @@
 	<!-- Modals Section -->
 	<?php include 'includes/modals.php'; ?>	
 
-	<!-- Script Source Files -->
-	<?php include 'includes/scripts.php'; ?>
 </body>
 </html>

@@ -35,7 +35,7 @@ margin-right: 0px!important;
   font-weight: 700;
   font-size: 0.9rem;
   letter-spacing: 0.1rem;
-  background-color: rgba(0, 0, 0, 0.6) !important;
+  background-color: rgba(0, 0, 0) !important;
 }
 
 .navbar-brand img{
@@ -288,8 +288,7 @@ footer table th{
 
 /*======= Start Modal Section ======*/
 .modal-content{
-  margin-top: 8rem;
-  border: 1px solid black;
+  margin: 5rem 0rem;
   border-radius: 0.5rem;
 }
 

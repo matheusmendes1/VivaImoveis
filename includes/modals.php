@@ -13,37 +13,40 @@
       </div>
 
       <div class="modal-body">
-      	<div class="row">
-		    <div class="col-md-12">
-				<label for="propositoImovel">Propósito</label>
+      	<form>
+      		<div class="form-row">
+      			<div class="col-md-6">
+					<label for="propositoImovel">Propósito</label>
 
-				<select id="propositoImovel" class="custom-select">
-				  <option selected hidden>Selecione...</option>
-				  <option value="aquisicao">Aquisição</option>
-				  <option value="locacao">Locação</option>
-				</select>
-			</div>
+					<select id="propositoImovel" class="custom-select">
+					  <option selected hidden>Selecione...</option>
+					  <option value="aquisicao">Aquisição</option>
+					  <option value="locacao">Locação</option>
+					</select>
+      			</div>
 
-			<div class="col-md-12">
-			    <label for="bairroImovel">Bairro</label>
-			    <input type="text" class="form-control" id="bairroImovel">
-			</div>
+				<div class="col-md-6">
+				    <label for="bairroImovel">Bairro</label>
+				    <input type="text" class="form-control" id="bairroImovel">
+				</div>
 
-			<div class="col-md-6">
-			    <label for="valorMinimoImovel">Mínimo</label>
-			    <input type="number" class="form-control" id="valorMinimoImovel">					
-			</div>      		
+				<div class="col-md-6">
+				    <label for="valorMinimoImovel">Mínimo</label>
+				    <input type="number" class="form-control" id="valorMinimoImovel">					
+				</div>      		
 
-			<div class="col-md-6">
-			    <label for="valorMaximoImovel">Máximo</label>
-			    <input type="number" class="form-control" id="valorMaximoImovel">						
-			</div>
+				<div class="col-md-6">
+				    <label for="valorMaximoImovel">Máximo</label>
+				    <input type="number" class="form-control" id="valorMaximoImovel">						
+				</div>
 
-			<div class="col-md-12">
-			    <label for="outrosImovel">Outros</label>
-			    <input type="text" class="form-control" id="outrosImovel">
-			</div>
-      	</div>
+				<div class="col-md-12">
+				    <label for="outrosImovel">Outros</label>
+				    <input type="text" class="form-control" id="outrosImovel">
+				</div>
+
+      		</div>
+      	</form>
       </div>
 
       <div class="modal-footer">

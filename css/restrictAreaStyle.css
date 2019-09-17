@@ -1,9 +1,4 @@
 /*======= Start Navivation Section =======*/
-
-.navbar{
-	background-color: rgba(0, 0, 0, 0.6) !important;
-}
-
 .navbar-dark .navbar-nav .dropdown-menu{
 	text-transform: uppercase;
   	font-weight: 700;
@@ -28,22 +23,19 @@
 
 /*======= Start Formulário Section =======*/
 
-#formClientes, #formFuncionario, #formImoveis{
-	padding-top: 6rem;
+#formClientes, #formFuncionario, #formImoveis, 
+#tableFuncionario, #tableClientes, #tableImoveis, #tableInteressados{
+	padding-top: 4rem;
 }
 
 #forms .jumbotron{
 	padding-top: 1.5rem;
 }
 
-#forms h3.heading{
+h3.heading{
   font-size: 1.4rem;
   font-weight: 700;
   text-transform: uppercase;
-}
-
-#pivo{
-	margin-bottom: 3rem;
 }
 
 #pivo label{
@@ -77,22 +69,8 @@ select option:before{
 /*======= End Formulário Section =======*/
 
 /*======= Start Tables Section =======*/
-#tables .jumbotron .container .table tbody tr td, #tables .jumbotron .container .table tbody tr th{
+#tables .table tbody tr td, #tables .table tbody tr th{
 	color: black;
-}
-
-#pivoTable{
-	margin-bottom: 5rem;
-}
-
-#pivoTable .text-center{
-	margin-top: -6rem;
-}
-
-#pivoTable h3.heading{
-  font-size: 1.4rem;
-  font-weight: 700;
-  text-transform: uppercase;
 }
 
 /*======= End Tables Section =======*/

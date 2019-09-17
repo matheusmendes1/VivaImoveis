@@ -72,11 +72,18 @@
 	</div>
 	<!-- End Landing Page Section -->
 
-	<!-- Formulários -->
-	<?php include 'includes/forms.php'; ?>
+	<!-- Formulários e Tabelas -->
+	<div id="pivo" class="offset">
+		<div class="jumbotron">
 
-	<!-- Tabelas -->
-	<?php include 'includes/tables.php'; ?>
+			<!-- Formulários -->
+			<?php include 'includes/forms.php'; ?>
+
+			<!-- Tabelas -->
+			<?php include 'includes/tables.php'; ?>
+
+		</div>
+	</div>
 
 
 	<!-- Footer Section -->
