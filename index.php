@@ -23,22 +23,22 @@
 		<div class="collapse navbar-collapse" id="barraNavegacao">
 			<ul class="navbar-nav ml-auto">
 				<li class="nav-item"> 
-					<a href="index.php" class="nav-link">Home</a>
+					<a href="index.php" class="nav-link hide-nav">Home</a>
 				</li>
 				<li>
-					<a href="#features" class="nav-link">Sobre</a>					
+					<a href="#features" class="nav-link hide-nav">Sobre</a>					
 				</li>
 				<li>
-					<a href="#about" class="nav-link">Empresa</a>					
+					<a href="#about" class="nav-link hide-nav">Empresa</a>					
 				</li>
 				<li>
-					<a href="#founders" class="nav-link">Fundadores</a>					
+					<a href="#founders" class="nav-link hide-nav">Fundadores</a>					
 				</li>
 				<li>
-					<a href="#contacts" class="nav-link">Contatos</a>					
+					<a href="#contacts" class="nav-link hide-nav">Contatos</a>					
 				</li>
 				<li>
-					<a href="search.php" class="nav-link default">Pesquise</a>					
+					<a href="search.php" class="nav-link default hide-nav">Pesquise</a>					
 				</li>
 				<li>
 					<a class="nav-link login-link" data-toggle="modal" data-target="#loginModal">Login</a>					

@@ -4,4 +4,5 @@
 <script src="bootstrap/js/bootstrap.min.js"></script>
 <script src="https://use.fontawesome.com/releases/v5.5.0/js/all.js"></script>
 <script src="js/restrictAreaController.js"></script>
+<script src="js/controller.js"></script>
 <!--- End of Script Source Files -->

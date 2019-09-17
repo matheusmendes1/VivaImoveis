@@ -29,9 +29,9 @@
 			          Cadastrar
 			        </a>
 			        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-			          <a id="displayFormFuncionarios" class="dropdown-item" href="#formFuncionario">Funcionarios</a>
-			          <a id="displayFormClientes" class="dropdown-item" href="#formClientes">Clientes</a>
-			          <a id="displayFormImoveis"class="dropdown-item" href="#formImoveis">Imoveis</a>
+			          <a id="displayFormFuncionarios" class="dropdown-item hide-nav" href="#formFuncionario">Funcionarios</a>
+			          <a id="displayFormClientes" class="dropdown-item hide-nav" href="#formClientes">Clientes</a>
+			          <a id="displayFormImoveis"class="dropdown-item hide-nav" href="#formImoveis">Imoveis</a>
 			        </div>
 			    </li>
 
@@ -40,10 +40,10 @@
 			          Visualizar
 			        </a>
 			        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-			          <a id="displayTableFuncionario" class="dropdown-item" href="#tableFuncionario">Funcionarios</a>
-			          <a id="displayTableClientes" class="dropdown-item" href="#tableClientes">Clientes</a>
-			          <a id="displayTableImoveis" class="dropdown-item" href="#tableImoveis">Imoveis</a>
-			          <a id="displayTableInteressados" class="dropdown-item" href="#tableInteressados">Interesses</a>
+			          <a id="displayTableFuncionario" class="dropdown-item hide-nav" href="#tableFuncionario">Funcionarios</a>
+			          <a id="displayTableClientes" class="dropdown-item hide-nav" href="#tableClientes">Clientes</a>
+			          <a id="displayTableImoveis" class="dropdown-item hide-nav" href="#tableImoveis">Imoveis</a>
+			          <a id="displayTableInteressados" class="dropdown-item hide-nav" href="#tableInteressados">Interesses</a>
 			        </div>
 			    </li>
 
