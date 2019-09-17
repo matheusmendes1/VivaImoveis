@@ -28,10 +28,10 @@
 					<a href="index.php" class="nav-link">Home</a>
 				</li>
 				<li>
-					<a href="#contacts" class="nav-link">Contacts</a>					
+					<a href="#contacts" class="nav-link">Contatos</a>					
 				</li>
 				<li>
-					<a href="search.php" class="nav-link default">Search</a>					
+					<a href="search.php" class="nav-link default">Pesquise</a>					
 				</li>
 				<li>
 					<a class="nav-link login-link" data-toggle="modal" data-target="#loginModal">Login</a>					

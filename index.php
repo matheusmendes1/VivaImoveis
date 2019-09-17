@@ -10,7 +10,43 @@
 <div id="home">
 	
 	<!-- Barra de navegação -->
-	<?php include 'includes/navbar.php'; ?>
+	<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+		<a href="index.php" class="navbar-brand">
+			<!-- LOGOTIPO -->
+			<img src="img/nuno.png">
+		</a>
+
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#barraNavegacao">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse" id="barraNavegacao">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item"> 
+					<a href="index.php" class="nav-link">Home</a>
+				</li>
+				<li>
+					<a href="#features" class="nav-link">Sobre</a>					
+				</li>
+				<li>
+					<a href="#about" class="nav-link">Empresa</a>					
+				</li>
+				<li>
+					<a href="#founders" class="nav-link">Fundadores</a>					
+				</li>
+				<li>
+					<a href="#contacts" class="nav-link">Contatos</a>					
+				</li>
+				<li>
+					<a href="search.php" class="nav-link default">Pesquise</a>					
+				</li>
+				<li>
+					<a class="nav-link login-link" data-toggle="modal" data-target="#loginModal">Login</a>					
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<!-- End Navigation -->
 
 	<!-- Start Landing Page Section -->
 	<div class="landing">
@@ -38,7 +74,7 @@
 	<div class="jumbotron" style="background-color: white !important;">
 		<div class="narrow">
 			<div class="col-12">
-				<h3 class="heading text-center">Features</h3>
+				<h3 class="heading text-center">Sobre</h3>
 				<div class="heading-underline"></div>
 			</div>
 
@@ -89,7 +125,7 @@
 <div id="about" class="offset">
 	<div class="jumbotron">
 		<div class="col-12 text-center">
-			<h3 class="heading">About</h3>
+			<h3 class="heading">Empresa</h3>
 			<div class="heading-underline"></div>
 		</div>
 
@@ -158,7 +194,7 @@
 	<!-- Start Jumbotron -->
 	<div class="jumbotron" style="background-color: white !important;">
 		<div class="col-12 text-center">
-			<h3 class="heading">Founders</h3>
+			<h3 class="heading">Fundadores</h3>
 			<div class="heading-underline"></div>
 		</div>
 

@@ -63,7 +63,7 @@
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header bg-header">
-        <h5 class="modal-title" id="exampleModalLabel">Sign In</h5>
+        <h5 class="modal-title" id="exampleModalLabel">Entrar</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -72,18 +72,18 @@
         	<form>
 
 			  <div class="form-group">
-			    <label for="exampleInputEmail1">Email address</label>
-			    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+			    <label for="exampleInputEmail1">Email</label>
+			    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
 			  </div>
 
 			  <div class="form-group">
 			    <label for="exampleInputPassword1">Password</label>
-			    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+			    <input type="password" class="form-control" id="exampleInputPassword1">
 			  </div>
 			</form>
       </div>
       <div class="modal-footer">
-			  <a href="#" class="float-left">Forgot your password?</a>
+			  <a href="#" class="float-left">Esqueci minha senha</a>
 			  <a href="restrict.php"><button type="submit" class="btn btn-secondary">Login</button></a>
       </div>
     </div>
