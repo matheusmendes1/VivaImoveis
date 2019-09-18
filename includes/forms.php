@@ -19,10 +19,75 @@
 					</div>
 
 					<div class="form-row">
-					    <div class="col-md-12">
-							<label for="endFuncionario">Endereço Completo</label>
-							<input id="endFuncionario" name="endFuncionario" type="text" class="form-control" required>
+					    <div class="col-sm-12 col-md-3">
+							<label for="cepFuncionario">CEP</label>
+							<input id="cepFuncionario" name="cepFuncionario" type="text" class="form-control" required>
 					    </div>
+					</div>
+
+					<div class="form-row">
+						<div class="col-md-2">
+							<label for="estadoFuncionario">Estado</label>
+							<select id="estadoFuncionario" class="custom-select" required>
+								<option selected hidden>Selecione...</option>
+								<option value="AC">Acre</option>
+								<option value="AL">Alagoas</option>
+								<option value="AP">Amapá</option>
+								<option value="AM">Amazonas</option>
+								<option value="BA">Bahia</option>
+								<option value="CE">Ceará</option>
+								<option value="DF">Distrito Federal</option>
+								<option value="ES">Espírito Santo</option>
+								<option value="GO">Goiás</option>
+								<option value="MA">Maranhão</option>
+								<option value="MT">Mato Grosso</option>
+								<option value="MS">Mato Grosso do Sul</option>
+								<option value="MG">Minas Gerais</option>
+								<option value="PA">Pará</option>
+								<option value="PB">Paraíba</option>
+								<option value="PR">Paraná</option>
+								<option value="PE">Pernambuco</option>
+								<option value="PI">Piauí</option>
+								<option value="RJ">Rio de Janeiro</option>
+								<option value="RN">Rio Grande do Norte</option>
+								<option value="RS">Rio Grande do Sul</option>
+								<option value="RO">Rondônia</option>
+								<option value="RR">Roraima</option>
+								<option value="SC">Santa Catarina</option>
+								<option value="SP">São Paulo</option>
+								<option value="SE">Sergipe</option>
+								<option value="TO">Tocantins</option>
+							</select>
+						</div>
+
+						<div class="col-md-6">
+							<label for="cidadeFuncionario">Município</label>
+							<input id="cidadeFuncionario" name="cidadeFuncionario" type="text" class="form-control" required>
+						</div>
+
+						<div class="col-md-4">
+							<label for="bairroFuncionario">Bairro</label>
+							<input id="bairroFuncionario" name="bairroFuncionario" type="text" class="form-control" required>						
+						</div>
+					</div>
+
+					<div class="form-row">
+
+					    <div class="col-md-7">
+							<label for="ruaFuncionario">Logradouro</label>
+							<input id="ruaFuncionario" name="ruaFuncionario" type="text" class="form-control" required>
+					    </div>
+
+						<div class="col-md-2">
+							<label for="numeroRuaFuncionario">Nº</label>
+							<input id="numeroRuaFuncionario" name="numeroRuaFuncionario" type="number" class="form-control" required>
+					    </div>
+
+						<div class="col-md-3">
+							<label for="complementoFuncionario">Complemento</label>
+							<input id="complementoFuncionario" name="complementoFuncionario" type="text" class="form-control">
+					    </div>
+
 					</div>
 
 					<div class="form-row">
@@ -103,10 +168,75 @@
 					</div>
 
 					<div class="form-row">
-					    <div class="col-md-12">
-							<label for="endCliente">Endereço Completo</label>
-							<input id="endCliente" name="endCliente" type="text" class="form-control" required>
+					    <div class="col-sm-12 col-md-3">
+							<label for="cepCliente">CEP</label>
+							<input id="cepCliente" name="cepCliente" type="text" class="form-control" required>
 					    </div>
+					</div>
+
+					<div class="form-row">
+						<div class="col-md-2">
+							<label for="estadoCliente">Estado</label>
+							<select id="estadoCliente" class="custom-select" required>
+								<option selected hidden>Selecione...</option>
+								<option value="AC">Acre</option>
+								<option value="AL">Alagoas</option>
+								<option value="AP">Amapá</option>
+								<option value="AM">Amazonas</option>
+								<option value="BA">Bahia</option>
+								<option value="CE">Ceará</option>
+								<option value="DF">Distrito Federal</option>
+								<option value="ES">Espírito Santo</option>
+								<option value="GO">Goiás</option>
+								<option value="MA">Maranhão</option>
+								<option value="MT">Mato Grosso</option>
+								<option value="MS">Mato Grosso do Sul</option>
+								<option value="MG">Minas Gerais</option>
+								<option value="PA">Pará</option>
+								<option value="PB">Paraíba</option>
+								<option value="PR">Paraná</option>
+								<option value="PE">Pernambuco</option>
+								<option value="PI">Piauí</option>
+								<option value="RJ">Rio de Janeiro</option>
+								<option value="RN">Rio Grande do Norte</option>
+								<option value="RS">Rio Grande do Sul</option>
+								<option value="RO">Rondônia</option>
+								<option value="RR">Roraima</option>
+								<option value="SC">Santa Catarina</option>
+								<option value="SP">São Paulo</option>
+								<option value="SE">Sergipe</option>
+								<option value="TO">Tocantins</option>
+							</select>
+						</div>
+
+						<div class="col-md-6">
+							<label for="cidadeCliente">Município</label>
+							<input id="cidadeCliente" name="cidadeCliente" type="text" class="form-control" required>
+						</div>
+
+						<div class="col-md-4">
+							<label for="bairroCliente">Bairro</label>
+							<input id="bairroCliente" name="bairroCliente" type="text" class="form-control" required>						
+						</div>
+					</div>
+
+					<div class="form-row">
+
+					    <div class="col-md-7">
+							<label for="logradouroCliente">Logradouro</label>
+							<input id="logradouroCliente" name="logradouroCliente" type="text" class="form-control" required>
+					    </div>
+
+						<div class="col-md-2">
+							<label for="numeroRuaCliente">Nº</label>
+							<input id="numeroRuaCliente" name="numeroRuaCliente" type="number" class="form-control" required>
+					    </div>
+
+						<div class="col-md-3">
+							<label for="complementoCliente">Complemento</label>
+							<input id="complementoCliente" name="complementoCliente" type="text" class="form-control">
+					    </div>
+
 					</div>
 
 					<div class="form-row">

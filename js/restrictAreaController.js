@@ -133,6 +133,10 @@ $(document).ready(function(){
 	/* Celular */
 	$('.celMask').mask('(00) 00000-0000');
 
+	/* CEP */
+	$('#cepFuncionario, #cepCliente').mask('00000-000');
+
+
 	$('#submitFuncionarios').click( function(){
 		alert("Maluco clicou aqui!");
 	});

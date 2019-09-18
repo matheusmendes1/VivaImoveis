@@ -62,30 +62,38 @@
 <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
+
       <div class="modal-header bg-header">
         <h5 class="modal-title" id="exampleModalLabel">Entrar</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
+
       <div class="modal-body">
-        	<form>
+      	<form action="php/login.php" method="post">
+  			  <div class="form-group">
+  			    <label for="emailRestrict">Email</label>
+  			    <input type="email" class="form-control" id="emailRestrict" name="emailRestrict" aria-describedby="emailHelp">
+  			  </div>
 
-			  <div class="form-group">
-			    <label for="exampleInputEmail1">Email</label>
-			    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-			  </div>
+  			  <div class="form-group">
+  			    <label for="passwordRestrict">Password</label>
+  			    <input type="password" class="form-control" id="passwordRestrict" name="passwordRestrict">
+  			  </div>
 
-			  <div class="form-group">
-			    <label for="exampleInputPassword1">Password</label>
-			    <input type="password" class="form-control" id="exampleInputPassword1">
-			  </div>
-			</form>
+          <div class="row">
+            <div class="col-sm-8 col-md-6">
+              <a href="restrict.php" class="modal-link">Esqueci minha senha</a>
+            </div>
+
+            <div class="col-sm-4 col-md-6">
+              <button type="submit" class="btn btn-secondary" value="send">Login</button>
+            </div>
+          </div>
+  		  </form>
       </div>
-      <div class="modal-footer">
-			  <a href="#" class="float-left">Esqueci minha senha</a>
-			  <a href="restrict.php"><button type="submit" class="btn btn-secondary">Login</button></a>
-      </div>
+      
     </div>
   </div>
 </div>

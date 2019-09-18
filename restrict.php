@@ -13,7 +13,7 @@
 
 	<!-- Start Navigation -->
 	<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-		<a href="index.php" class="navbar-brand">
+		<a href="#landing" class="navbar-brand">
 			<!-- LOGOTIPO -->
 			<img src="img/nuno.png">
 		</a>
@@ -56,7 +56,7 @@
 	<!-- End Navigation -->
 
 	<!-- Start Landing Page Section -->
-	<div class="landing">
+	<div class="landing" id="landing">
 		<div class="home-wrap">
 			<div class="home-inner">
 				<div class="layer">
