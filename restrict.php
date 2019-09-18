@@ -15,7 +15,7 @@
 	<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
 		<a href="#landing" class="navbar-brand">
 			<!-- LOGOTIPO -->
-			<img src="img/nuno.png">
+			<img src="img/newLogo.png">
 		</a>
 
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#barraNavegacao">
@@ -46,6 +46,10 @@
 			          <a id="displayTableInteressados" class="dropdown-item hide-nav" href="#tableInteressados">Interesses</a>
 			        </div>
 			    </li>
+
+				<li>
+					<a href="#contacts" class="nav-link hide-nav">Contatos</a>					
+				</li>
 
 				<li>
 					<a href="index.php" class="nav-link">Logout</a>					

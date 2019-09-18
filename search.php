@@ -15,7 +15,7 @@
 	<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
 		<a href="#landing" class="navbar-brand">
 			<!-- LOGOTIPO -->
-			<img src="img/nuno.png">
+			<img src="img/newLogo.png">
 		</a>
 
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#barraNavegacao">

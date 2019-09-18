@@ -5,8 +5,8 @@
      <footer class="container">
         <div class="row">
            <div class="col-md-4 text-center">
-              <img src="img/nuno.png">
-              <p style="margin-top: 1rem;"><strong>Optimização, projetos e soluções</strong></p>
+              <img src="img/newLogo.png">
+              <p style="margin-top: -2rem;"><strong>Compra e Locação de Imóveis</strong></p>
            </div>
 
            <div class="col-md-4 padding-footer">
