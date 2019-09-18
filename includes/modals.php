@@ -83,11 +83,11 @@
   			  </div>
 
           <div class="row">
-            <div class="col-sm-8 col-md-6">
+            <div class="col-sm-12 col-md-6">
               <a href="restrict.php" class="modal-link">Esqueci minha senha</a>
             </div>
 
-            <div class="col-sm-4 col-md-6">
+            <div class="col-sm-12 col-md-6">
               <button type="submit" class="btn btn-secondary" value="send">Login</button>
             </div>
           </div>
