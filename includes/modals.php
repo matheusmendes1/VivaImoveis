@@ -50,8 +50,15 @@
       </div>
 
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
-        <button type="button" class="btn btn-secondary">Pesquisar</button>
+        
+          <div class="col-sm-6 col-md-6">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+          </div>
+
+          <div class="col-sm-6 col-md-6">
+            <button type="button" class="btn btn-secondary">Pesquisar</button>
+          </div>
+       
       </div>
 
     </div>
@@ -82,15 +89,16 @@
   			    <input type="password" class="form-control" id="passwordRestrict" name="passwordRestrict">
   			  </div>
 
-          <div class="row">
-            <div class="col-sm-12 col-md-6">
+          <div class="form-row">
+            <div class="col-7 col-md-6">
               <a href="restrict.php" class="modal-link">Esqueci minha senha</a>
             </div>
 
-            <div class="col-sm-12 col-md-6">
+            <div class="col-5 col-md-6">
               <button type="submit" class="btn btn-secondary" value="send">Login</button>
             </div>
           </div>
+
   		  </form>
       </div>
       
