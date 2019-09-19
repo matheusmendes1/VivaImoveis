@@ -15,27 +15,27 @@
       <div class="modal-body">
       	<form>
       		<div class="form-row">
-      			<div class="col-md-6">
-					<label for="propositoImovel">Propósito</label>
+      			<div class="col-5 col-md-5">
+					   <label for="propositoImovel">Propósito</label>
 
-					<select id="propositoImovel" class="custom-select">
-					  <option selected hidden>Selecione...</option>
-					  <option value="aquisicao">Aquisição</option>
-					  <option value="locacao">Locação</option>
-					</select>
+    					<select id="propositoImovel" class="custom-select">
+    					  <option selected hidden>Selecione...</option>
+    					  <option value="aquisicao">Aquisição</option>
+    					  <option value="locacao">Locação</option>
+    					</select>
       			</div>
 
-				<div class="col-md-6">
+				<div class="col-7 col-md-7">
 				    <label for="bairroImovel">Bairro</label>
 				    <input type="text" class="form-control" id="bairroImovel">
 				</div>
 
-				<div class="col-md-6">
+				<div class="col-6 col-md-6">
 				    <label for="valorMinimoImovel">Mínimo</label>
 				    <input type="number" class="form-control" id="valorMinimoImovel">					
 				</div>      		
 
-				<div class="col-md-6">
+				<div class="col-6 col-md-6">
 				    <label for="valorMaximoImovel">Máximo</label>
 				    <input type="number" class="form-control" id="valorMaximoImovel">						
 				</div>
@@ -50,8 +50,15 @@
       </div>
 
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
-        <button type="button" class="btn btn-secondary">Pesquisar</button>
+        
+          <div class="col-sm-6 col-md-6">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+          </div>
+
+          <div class="col-sm-6 col-md-6">
+            <button type="button" class="btn btn-secondary">Pesquisar</button>
+          </div>
+       
       </div>
 
     </div>
@@ -82,15 +89,16 @@
   			    <input type="password" class="form-control" id="passwordRestrict" name="passwordRestrict">
   			  </div>
 
-          <div class="row">
-            <div class="col-sm-4 col-md-6">
+          <div class="form-row">
+            <div class="col-7 col-md-6">
               <a href="restrict.php" class="modal-link">Esqueci minha senha</a>
             </div>
 
-            <div class="col-sm-4 col-md-6">
+            <div class="col-5 col-md-6">
               <button type="submit" class="btn btn-secondary" value="send">Login</button>
             </div>
           </div>
+
   		  </form>
       </div>
       
