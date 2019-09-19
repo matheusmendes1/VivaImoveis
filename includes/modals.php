@@ -52,11 +52,11 @@
       <div class="modal-footer">
         
           <div class="col-sm-6 col-md-6">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+            <button type="button" class="btn btn-secondary float-left" data-dismiss="modal">Cancelar</button>
           </div>
 
           <div class="col-sm-6 col-md-6">
-            <button type="button" class="btn btn-secondary">Pesquisar</button>
+            <button type="button" class="btn btn-secondary float-right">Pesquisar</button>
           </div>
        
       </div>
@@ -95,7 +95,7 @@
             </div>
 
             <div class="col-5 col-md-6">
-              <button type="submit" class="btn btn-secondary" value="send">Login</button>
+              <button type="submit" class="btn btn-secondary float-right" value="send">Login</button>
             </div>
           </div>
 
