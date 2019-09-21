@@ -31,7 +31,7 @@
 					<a href="#contacts" class="nav-link hide-nav">Contatos</a>					
 				</li>
 				<li>
-					<a href="search.php" class="nav-link default hide-nav">Pesquise</a>					
+					<a href="#landing" class="nav-link default hide-nav">Pesquise</a>					
 				</li>
 				<li>
 					<a class="nav-link login-link" data-toggle="modal" data-target="#loginModal">Login</a>					
@@ -63,7 +63,7 @@
 			<div class="container">
 
 				<div class="text-center">
-					<button type="button" class="btn btn-secondary btn-md" data-toggle="modal" data-target="#searchModal">Pesquisar Imóveis</button>
+					<button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#searchModal">Pesquisar Imóveis</button>
 				</div>
 			
 				<!-- Start Card -->
@@ -71,16 +71,19 @@
 					<div class=col-md-4>
 						<div class="row">
 							<div class="col-md-12">
-								<h3>Apartamento</h3>
+								<h3 class="text-center">Apartamento</h3>
 								<div class="heading-underline"></div>
 							</div>
 
 							<div class="col-md-12">
-								<label>Área: 128m²</label><br>
-								<label>Quartos: 2</label><br>
-								<label>Sala: 2</label><br>
-								<label>Descrição: Eu gosto bastante desse imóvel mas vou ter que vender</label><br>
-								<button type="button" class="btn btn-primary btn-color">Interesse</button>
+								<label><strong>Área:</strong> 128m²</label><br>
+								<label><strong>Quartos:</strong> 2</label><br>
+								<label><strong>Sala:</strong> 2</label><br>
+								<label><strong>Descrição:</strong> Apartamento para venda, bem conservado.</label><br>
+								
+								<div  class="text-center">
+									<button type="button" class="btn btn-primary btn-color">Interessado!</button>	
+								</div>
 							</div>
 						</div>
 						
@@ -94,11 +97,11 @@
 							</div>
 
 							<div class="col-md-4">
-								<img src="img/casa2.jpg" class="img-fluid">
+								<img src="img/casa1.jpg" class="img-fluid">
 							</div>
 
 							<div class="col-md-4">
-								<img src="img/casa3.jpg" class="img-fluid">
+								<img src="img/casa1.jpg" class="img-fluid">
 							</div>
 						</div>
 					</div>
@@ -110,20 +113,22 @@
 					<div class=col-md-4>
 						<div class="row">
 							<div class="col-md-12">
-								<h3>Apartamento</h3>
+								<h3 class="text-center">Casa</h3>
 								<div class="heading-underline"></div>
 							</div>
 
 							<div class="col-md-12">
-								<label>Área: 128m²</label><br>
-								<label>Quartos: 2</label><br>
-								<label>Sala: 2</label><br>
-								<label>Descrição: Eu gosto bastante desse imóvel mas vou ter que vender</label><br>
-								<button type="button" class="btn btn-primary btn-color">Interesse</button>
+								<label><strong>Área:</strong> 128m²</label><br>
+								<label><strong>Quartos:</strong> 2</label><br>
+								<label><strong>Sala:</strong> 2</label><br>
+								<label><strong>Descrição:</strong> Casa disponível para locação. Cozinha espaçosa, único dono.</label><br>
+
+								<div  class="text-center">
+									<button type="button" class="btn btn-primary btn-color">Interessado!</button>	
+								</div>
+								
 							</div>
 						</div>
-						
-
 					</div>
 
 					<div class="col-md-8">
@@ -133,11 +138,11 @@
 							</div>
 
 							<div class="col-md-4">
-								<img src="img/casa2.jpg" class="img-fluid">
+								<img src="img/casa1.jpg" class="img-fluid">
 							</div>
 
 							<div class="col-md-4">
-								<img src="img/casa3.jpg" class="img-fluid">
+								<img src="img/casa1.jpg" class="img-fluid">
 							</div>
 						</div>
 					</div>
@@ -149,21 +154,21 @@
 					<div class=col-md-4>
 						<div class="row">
 							<div class="col-md-12">
-								<h3>Apartamento</h3>
+								<h3 class="text-center">Sala Comercial</h3>
 								<div class="heading-underline"></div>
 							</div>
 
 							<div class="col-md-12">
-								<label>Área: 128m²</label><br>
-								<label>Quartos: 2</label><br>
-								<label>Sala: 2</label><br>
-								<label>Descrição: Eu gosto bastante desse imóvel mas vou ter que vender</label><br>
+								<label><strong>Área:</strong> 128m²</label><br>
+								<label><strong>Banheiros:</strong> 2</label><br>
+								<label><strong>Descrição:</strong> sala comercial bem localizada. Ótimo ponto!</label><br>
 
-								<button type="button" class="btn btn-primary btn-color">Interesse</button>
+								<div  class="text-center">
+									<button type="button" class="btn btn-primary btn-color">Interessado!</button>	
+								</div>
+								
 							</div>
 						</div>
-						
-
 					</div>
 
 					<div class="col-md-8">
@@ -173,11 +178,11 @@
 							</div>
 
 							<div class="col-md-4">
-								<img src="img/casa2.jpg" class="img-fluid">
+								<img src="img/casa1.jpg" class="img-fluid">
 							</div>
 
 							<div class="col-md-4">
-								<img src="img/casa3.jpg" class="img-fluid">
+								<img src="img/casa1.jpg" class="img-fluid">
 							</div>
 						</div>
 					</div>

@@ -23,7 +23,7 @@
 		<div class="collapse navbar-collapse" id="barraNavegacao">
 			<ul class="navbar-nav ml-auto">
 				<li class="nav-item"> 
-					<a href="index.php" class="nav-link hide-nav">Home</a>
+					<a href="#landing" class="nav-link hide-nav">Home</a>
 				</li>
 				<li>
 					<a href="#features" class="nav-link hide-nav">Sobre</a>					
@@ -84,7 +84,7 @@
 						<i class="fas fa-sign fa-5x" data-fa-transform="shrink-3 up-5"></i>
 						<h3>Aluguel</h3>
 						<p>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean aliquam et urna a porta. Integer imperdiet elementum augue eget volutpat.
+							Aqui, na Viva Imóveis, você encontra os melhores anúncios de imóveis para alugar em todo o país. Basta pesquisar e encontrar seu imóvel ideal!
 						</p>
 					</div>
 				</div>
@@ -94,7 +94,7 @@
 						<i class="fas fa-dollar-sign fa-5x" data-fa-transform="shrink-3 up-5"></i>
 						<h3>Vendas</h3>
 						<p>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean aliquam et urna a porta. Integer imperdiet elementum augue eget volutpat.
+							Casas, apartamentos, salas comerciais ou terrenos. Na Viva Imóveis você encontra o que precisa e que se adequa a sua necessidade. Feche negócio!
 						</p>
 					</div>
 				</div>
@@ -104,7 +104,7 @@
 						<i class="fas fa-user-friends fa-5x" data-fa-transform="shrink-3 up-5"></i>
 						<h3>Suporte</h3>
 						<p>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean aliquam et urna a porta. Integer imperdiet elementum augue eget volutpat.
+							A equipe de suporte está sempre presente para sanar dúvidas e ajudar no que for possível. Entre em contato para mais informações!
 						</p>
 					</div>
 				</div>
@@ -136,11 +136,11 @@
 				</div>
 
 				<div class="col-12 col-md-8 col-lg-7">
-					<h5 class="heading">Missao</h5>
+					<h5 class="heading">Missão</h5>
 					<div class="sub-heading-underline"></div>
 					<blockquote>
 						<p>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean aliquam et urna a porta. Integer imperdiet elementum augue eget volutpat. Praesent mattis pellentesque dolor ac faucibus. Mauris tempus purus nec dui efficitur dictum. Curabitur ut condimentum leo. Fusce vehicula ipsum sit amet est semper, a pharetra libero malesuada.
+							A missão da Viva Imóveis é facilitar o diálogo entre pessoas que possuem propriedades disponíveis para venda ou locação e pessoas que têm interesse em uma destas opções. É prover um serviço de qualidade pensando na felicidade e satisfação do cliente. É acima de tudo, ser parceira da comunidade oferecendo ferramentas para que o negócio entre ambas as partes seja justo, agradável e simples.
 						</p>
 					</blockquote>					
 				</div>
@@ -152,7 +152,7 @@
 					<div class="sub-heading-underline"></div>
 					<blockquote>
 						<p>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean aliquam et urna a porta. Integer imperdiet elementum augue eget volutpat. Praesent mattis pellentesque dolor ac faucibus. Mauris tempus purus nec dui efficitur dictum. Curabitur ut condimentum leo. Fusce vehicula ipsum sit amet est semper, a pharetra libero malesuada.
+							Os valores da empresa se resumem em: cuidar do anúncio do cliente, tanto da forma como o faz como do conteúdo que exibe e ser reconhecida por facilitar a ponte do diálogo entre donos de imóveis e interessados em imóveis.
 						</p>
 					</blockquote>					
 				</div>
@@ -212,7 +212,7 @@
 							<p>
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean aliquam et urna a porta. Integer imperdiet elementum augue eget volutpat. Praesent mattis pellentesque dolor ac faucibus. Mauris tempus purus nec dui efficitur dictum. Curabitur ut condimentum leo. Fusce vehicula ipsum sit amet est semper, a pharetra libero malesuada.
 								<hr class="founders-hr">
-								<cite>&#8212; Matheus, CEO</cite>
+								<cite>&#8212; Matheus, Fundador</cite>
 							</p>
 						</blockquote>
 					</div>
@@ -231,7 +231,7 @@
 							<p>
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean aliquam et urna a porta. Integer imperdiet elementum augue eget volutpat. Praesent mattis pellentesque dolor ac faucibus. Mauris tempus purus nec dui efficitur dictum. Curabitur ut condimentum leo. Fusce vehicula ipsum sit amet est semper, a pharetra libero malesuada.
 								<hr class="founders-hr">
-								<cite>&#8212; David, Bobo</cite>
+								<cite>&#8212; David, Fundador</cite>
 							</p>
 						</blockquote>
 					</div>
@@ -250,7 +250,7 @@
 							<p>
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean aliquam et urna a porta. Integer imperdiet elementum augue eget volutpat. Praesent mattis pellentesque dolor ac faucibus. Mauris tempus purus nec dui efficitur dictum. Curabitur ut condimentum leo. Fusce vehicula ipsum sit amet est semper, a pharetra libero malesuada.
 								<hr class="founders-hr">
-								<cite>&#8212; Maxwell, outro bobo</cite>
+								<cite>&#8212; Maxwell, Fundador</cite>
 							</p>
 						</blockquote>
 					</div>

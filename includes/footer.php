@@ -27,11 +27,11 @@
            </div>
 
            <div class="col-md-4 text-center">
-              <p><a href="index.php">Home</a></p>
-              <p><a href="#features">Features</a></p>
-              <p><a href="#about">About</a></p>
-              <p><a href="#founders">Founders</a></p>
-              <p><a href="search.php">Search</a></p>
+              <p><a href="index.php#landing">Home</a></p>
+              <p><a href="index.php#features">Sobre</a></p>
+              <p><a href="index.php#about">Empresa</a></p>
+              <p><a href="index.php#founders">Fundadores</a></p>
+              <p><a href="search.php#landing">Pesquise</a></p>
 
               <div class="text-center">
                  <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square"></i></a>

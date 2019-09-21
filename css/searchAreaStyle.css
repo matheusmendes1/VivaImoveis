@@ -11,10 +11,10 @@
 }
 
 #search .heading-underline{
-  width: 7rem;
+  width: 60%;
   height: 0.2rem;
   background-color: rgb(0, 157, 220);
-  margin: 0 1rem;
+  margin: auto;
 }
 
 .btn-color{

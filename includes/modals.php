@@ -91,11 +91,11 @@
 
           <div class="form-row">
             <div class="col-7 col-md-6">
-              <a href="restrict.php" class="modal-link">Esqueci minha senha</a>
+              <a href="#" class="modal-link">Esqueci minha senha</a>
             </div>
 
             <div class="col-5 col-md-6">
-              <button type="submit" class="btn btn-secondary float-right" value="send">Login</button>
+              <a href="restrict.php" class="btn btn-secondary float-right">Login</a>
             </div>
           </div>
 
