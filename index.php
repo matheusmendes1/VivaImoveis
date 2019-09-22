@@ -174,7 +174,7 @@
 					<div class="sub-heading-underline"></div>
 					<blockquote>
 						<p>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean aliquam et urna a porta. Integer imperdiet elementum augue eget volutpat. Praesent mattis pellentesque dolor ac faucibus. Mauris tempus purus nec dui efficitur dictum. Curabitur ut condimentum leo. Fusce vehicula ipsum sit amet est semper, a pharetra libero malesuada.
+							Os valores da empresa se resumem em: cuidar do anúncio do cliente, tanto da forma como o faz como do conteúdo que exibe e ser reconhecida por facilitar a ponte do diálogo entre donos de imóveis e interessados em imóveis.
 						</p>
 					</blockquote>					
 				</div>
