@@ -110,7 +110,7 @@
 				</div>
 
 				<div class="col-12 col-md-12">
-					<a href="" class="btn btn-secondary">Encontre o imóvel ideal</a>
+					<a href="search.php" class="btn btn-secondary">Encontre o imóvel ideal</a>
 				</div>
 
 			</div>
