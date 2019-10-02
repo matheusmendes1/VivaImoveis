@@ -71,7 +71,7 @@
 	</div>
 
 	<div class="caption text-center">
-		<h1>Viva Imoveis</h1>
+		<h1>Viva Imóveis</h1>
 		<h3>Área restrita - Gerenciamento da Plataforma</h3>
 	</div>
 	<!-- End Landing Page Section -->

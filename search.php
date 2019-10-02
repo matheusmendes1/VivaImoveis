@@ -53,7 +53,7 @@
 	</div>
 
 	<div class="caption text-center">
-		<h1>Viva Imoveis</h1>
+		<h1>Viva Imóveis</h1>
 		<h3>Seu imóvel a um clique</h3>
 	</div>
 	<!-- End Landing Page Section -->
@@ -82,7 +82,7 @@
 								<label><strong>Descrição:</strong> Apartamento para venda, bem conservado.</label><br>
 								
 								<div  class="text-center">
-									<button type="button" class="btn btn-primary btn-color">Interessado!</button>	
+									<button type="button" class="btn btn-primary btn-color" data-toggle="modal" data-target="#interesseModal">Interessado!</button>	
 								</div>
 							</div>
 						</div>
@@ -124,7 +124,7 @@
 								<label><strong>Descrição:</strong> Casa disponível para locação. Cozinha espaçosa, único dono.</label><br>
 
 								<div  class="text-center">
-									<button type="button" class="btn btn-primary btn-color">Interessado!</button>	
+									<button type="button" class="btn btn-primary btn-color" data-toggle="modal" data-target="#interesseModal">Interessado!</button>	
 								</div>
 								
 							</div>
@@ -164,7 +164,7 @@
 								<label><strong>Descrição:</strong> sala comercial bem localizada. Ótimo ponto!</label><br>
 
 								<div  class="text-center">
-									<button type="button" class="btn btn-primary btn-color">Interessado!</button>	
+									<button type="button" class="btn btn-primary btn-color" data-toggle="modal" data-target="#interesseModal">Interessado!</button>	
 								</div>
 								
 							</div>

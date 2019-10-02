@@ -60,8 +60,8 @@
 	</div>
 
 	<div class="caption text-center">
-		<h1>Viva Imoveis</h1>
-		<h3>Seu imovel, nossa responsabilidade</h3>
+		<h1>Viva Imóveis</h1>
+		<h3>Seu imóvel, nossa responsabilidade</h3>
 	</div>
 	<!-- End Landing Page Section -->
 
@@ -94,7 +94,7 @@
 						<i class="fas fa-dollar-sign fa-5x" data-fa-transform="shrink-3 up-5"></i>
 						<h3>Vendas</h3>
 						<p>
-							Casas, apartamentos, salas comerciais ou terrenos. Na Viva Imóveis você encontra o que precisa e que se adequa a sua necessidade. Feche negócio!
+							Casas, apartamentos, salas comerciais ou terrenos. Na Viva Imóveis você encontra o que precisa e que se adequa a sua necessidade. Feche seu negócio!
 						</p>
 					</div>
 				</div>
@@ -110,7 +110,7 @@
 				</div>
 
 				<div class="col-12 col-md-12">
-					<a href="" class="btn btn-secondary">Encontre o imóvel ideal</a>
+					<a href="search.php" class="btn btn-secondary">Encontre o imóvel ideal</a>
 				</div>
 
 			</div>
@@ -174,7 +174,7 @@
 					<div class="sub-heading-underline"></div>
 					<blockquote>
 						<p>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean aliquam et urna a porta. Integer imperdiet elementum augue eget volutpat. Praesent mattis pellentesque dolor ac faucibus. Mauris tempus purus nec dui efficitur dictum. Curabitur ut condimentum leo. Fusce vehicula ipsum sit amet est semper, a pharetra libero malesuada.
+							Os valores da empresa se resumem em: cuidar do anúncio do cliente, tanto da forma como o faz como do conteúdo que exibe e ser reconhecida por facilitar a ponte do diálogo entre donos de imóveis e interessados em imóveis.
 						</p>
 					</blockquote>					
 				</div>
