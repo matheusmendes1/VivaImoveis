@@ -1,3 +1,16 @@
+<?php
+
+session_start();
+$nomeFuncionario = "";
+if(isset($_SESSION["nomeFuncionario"])){
+    $nomeFuncionario = $_SESSION["nomeFuncionario"];
+}else{
+	session_destroy(); // Cancela/Exclui a sessão iniciada
+	header('location: index.php');
+}
+
+?>
+
 <!DOCTYPE html>
 <html lang="PT-BR">
 <head>
@@ -52,7 +65,7 @@
 				</li>
 
 				<li>
-					<a href="index.php" class="nav-link">Logout</a>					
+					<a href="logout.php" class="nav-link">Logout</a>					
 				</li>
 			</ul>
 		</div>
@@ -72,7 +85,7 @@
 
 	<div class="caption text-center">
 		<h1>Viva Imóveis</h1>
-		<h3>Área restrita - Gerenciamento da Plataforma</h3>
+		<h3>Área restrita - Bem vindo(a), <?php echo" $nomeFuncionario";?> </h3>
 	</div>
 	<!-- End Landing Page Section -->
 

@@ -5,7 +5,7 @@ $(document).ready(function(){
 	$( "#formClientes" ).hide();
 	$( "#formImoveis" ).hide();
 
-	$( "#subFormCasa" ).show();
+	$( "#subFormCasa" ).hide();
 	$( "#subFormApartamento" ).hide();
 	$( "#subFormSalaComercial" ).hide();
 	$( "#subFormTerreno" ).hide();
@@ -90,32 +90,36 @@ $(document).ready(function(){
         var selectedImovel = $(this).children("option:selected").val();
         
         switch(selectedImovel){
-        	case "casa":
+        	case "Casa":
         		$( "#subFormCasa" ).show();
 				$( "#subFormApartamento" ).hide();
-				$( "#subFormSalaComercial" ).hide();
-				$( "#subFormTerreno" ).hide();
+				//document.getElementById("numApartamento").removeAttribute("required");
+				document.getElementById("numApartamento").required = false;
+				document.getElementById("numApartamento").value = null;
+
+				//document.getElementById("andarApartamento").removeAttribute("required");
+				document.getElementById("andarApartamento").required = false;
+				document.getElementById("andarApartamento").value = null;
+
+				//document.getElementById("valorCondominio").removeAttribute("required");
+				document.getElementById("valorCondominio").required = false;
+				document.getElementById("valorCondominio").value = null;
+
+				document.getElementById("areaCasa").required = true;
+
         		break;
 
-        	case "apartamento":
+        	case "Apartamento":
         		$( "#subFormCasa" ).hide();
 				$( "#subFormApartamento" ).show();
-				$( "#subFormSalaComercial" ).hide();
-				$( "#subFormTerreno" ).hide();
-        		break;
+				//document.getElementById("areaCasa").removeAttribute("required");
+				document.getElementById("areaCasa").required = false;
+				document.getElementById("areaCasa").value = null;
+				document.getElementById("possuiPiscina").required = false;
 
-        	case "salaComercial":
-        		$( "#subFormCasa" ).hide();
-				$( "#subFormApartamento" ).hide();
-				$( "#subFormSalaComercial" ).show();
-				$( "#subFormTerreno" ).hide();
-        		break;
-
-        	case "terreno":
-        		$( "#subFormCasa" ).hide();
-				$( "#subFormApartamento" ).hide();
-				$( "#subFormSalaComercial" ).hide();
-				$( "#subFormTerreno" ).show();
+				document.getElementById("numApartamento").required = true;
+				document.getElementById("andarApartamento").required = true;
+				document.getElementById("valorCondominio").required = true;
         		break;
         }
     });
@@ -136,10 +140,5 @@ $(document).ready(function(){
 	/* CEP */
 	$('#cepFuncionario, #cepCliente').mask('00000-000');
 
-
-	$('#submitFuncionarios').click( function(){
-		alert("Maluco clicou aqui!");
-	});
-	
 	/* End - Máscaras */
 })

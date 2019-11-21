@@ -1,70 +1,3 @@
-<!-- Modal - Search -->
-<div class="modal fade" id="searchModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-
-      <div class="modal-header bg-header">
-      	
-        <h3 class="modal-title" id="exampleModalLabel">Filtros</h3>	      		
-
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-
-      <div class="modal-body">
-      	<form action="searchImoveis.php">
-      		<div class="form-row">
-      			<div class="col-5 col-md-5">
-					   <label for="propositoImovel">Propósito</label>
-
-    					<select id="propositoImovel" class="custom-select">
-    					  <option selected hidden>Selecione...</option>
-    					  <option value="aquisicao">Aquisição</option>
-    					  <option value="locacao">Locação</option>
-    					</select>
-      			</div>
-
-				<div class="col-7 col-md-7">
-				    <label for="bairroImovel">Bairro</label>
-				    <input type="text" class="form-control" id="bairroImovel">
-				</div>
-
-				<div class="col-6 col-md-6">
-				    <label for="valorMinimoImovel">Mínimo</label>
-				    <input type="number" class="form-control" id="valorMinimoImovel">					
-				</div>      		
-
-				<div class="col-6 col-md-6">
-				    <label for="valorMaximoImovel">Máximo</label>
-				    <input type="number" class="form-control" id="valorMaximoImovel">						
-				</div>
-
-				<div class="col-md-12">
-				    <label for="outrosImovel">Outros</label>
-				    <input type="text" class="form-control" id="outrosImovel">
-				</div>
-
-      		</div>
-      	</form>
-      </div>
-
-      <div class="modal-footer">
-        
-          <div class="col-sm-6 col-md-6">
-            <button type="button" class="btn btn-secondary float-left" data-dismiss="modal">Cancelar</button>
-          </div>
-
-          <div class="col-sm-6 col-md-6">
-            <button type="button" class="btn btn-secondary float-right">Pesquisar</button>
-          </div>
-       
-      </div>
-
-    </div>
-  </div>
-</div>
-
 <!-- Modal - Login -->
 <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
@@ -80,23 +13,17 @@
       <div class="modal-body">
       	<form action="login.php" method="post">
   			  <div class="form-group">
-  			    <label for="emailRestrict">Email</label>
-  			    <input type="email" class="form-control" id="emailRestrict" name="emailRestrict" aria-describedby="emailHelp">
+  			    <label for="email">Email</label>
+  			    <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp" required="true">
   			  </div>
 
   			  <div class="form-group">
-  			    <label for="passwordRestrict">Password</label>
-  			    <input type="password" class="form-control" id="passwordRestrict" name="passwordRestrict">
+  			    <label for="password">Password</label>
+  			    <input type="password" class="form-control" id="password" name="password" required="true">
   			  </div>
 
-          <div class="form-row">
-            <div class="col-7 col-md-6">
-              <a href="#" class="modal-link">Esqueci minha senha</a>
-            </div>
-
-            <div class="col-5 col-md-6">
-              <a href="restrict.php" class="btn btn-secondary float-right">Login</a>
-            </div>
+          <div class="form-row justify-content-center">    
+              <button type="submit" class="btn btn-secondary">Login</button>
           </div>
 
   		  </form>
@@ -105,6 +32,7 @@
     </div>
   </div>
 </div>
+
 
 <!-- Modal - Interesse -->
 <div class="modal fade" id="interesseModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -121,26 +49,28 @@
       </div>
 
       <div class="modal-body">
-        <form action="enviarInteresse.php">
+        <form action="cadastraInteresse.php" method="POST">
+
+            <input type="hidden" id="imovelId" name="imovelId">
 
             <div class="form-group">
                 <label for="nomeInteresse">Nome</label>
-                <input type="text" class="form-control" id="nomeInteresse" required>
+                <input type="text" class="form-control" id="nomeInteresse" name="nome" required>
             </div>
 
             <div class="form-group">
                 <label for="emailInteresse">E-mail</label>
-                <input type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{3}$" class="form-control" id="emailInteresse" required>         
+                <input type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{3}$" class="form-control" id="emailInteresse" name="email" required>         
             </div>          
 
             <div class="form-group">
                 <label for="phoneInteresse">Telefone</label>
-                <input type="tel" pattern="\d{7}[\-]\d{4}" class="form-control" id="phoneInteresse" required>           
+                <input type="tel" class="form-control telMask" id="phoneInteresse" name="telefone" required>           
             </div>
 
             <div class="form-group">
                 <label for="descricaoInteresse">Descrição da Proposta</label>
-                <input type="text" class="form-control" id="descricaoInteresse" required>
+                <input type="text" class="form-control" id="descricaoInteresse" name="descricao" required>
             </div>
             
           <div class="modal-footer">

@@ -3657,6 +3657,7 @@ input[type="button"].btn-block {
   width: 100%;
   height: calc(2.25rem + 2px);
   margin-bottom: 0;
+  margin-top: 32px !important;
 }
 
 .custom-file-input {
